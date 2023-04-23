@@ -74,3 +74,31 @@ text-align: left
   font-size: 14px;
   border: solid 1px grey;
 }
+form {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: inline-block;
+}
+
+label, input, textarea {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+label {
+  width: 80px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: calc(100% - 90px);
+  padding: 5px;
+  margin: 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  margin-left: 80px;
+}
