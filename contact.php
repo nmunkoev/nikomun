@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['submit'])){
-    $to = "nmunkoev@gmail.com"; // замените на свой email
+    $to = "n.munkoev@gmail.com"; // замените на свой email
     $subject = "Заявка с сайта";
     $name = $_POST['name'];
     $email = $_POST['email'];
