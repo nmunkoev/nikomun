@@ -58,8 +58,14 @@ margin: 0 auto;
 text-align: left
 }
 .contact_form {
-border: solid 1px #grey
-width: 300px;
-height: 150px;
-text-align: left
+  border: solid 1px grey;
+  width: 300px;
+  height: 150px;
+}
+
+.contact_form input,
+.contact_form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
 }
